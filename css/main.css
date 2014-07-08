@@ -27,6 +27,7 @@ body {
   position:relative;
   display:block;
   font-family: arial,sans-serif;
+  width:450px;
 }
 
 .instructions {
