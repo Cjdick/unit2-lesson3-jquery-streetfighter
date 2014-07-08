@@ -11,12 +11,28 @@ body {
 }
 
 .ryu {
-	flotat:left;
+	float:left;
+  position:relative;
+  display:block;
+  width:700px;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
+}
+
+.instructions-container {
+  float:left;
+  position:relative;
+  display:block;
+  font-family: arial,sans-serif;
+}
+
+.instructions {
+  padding-top:25px;
+  padding-bottom:25px;
+  font-weight:bold;
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool {
